@@ -1,0 +1,11 @@
+@import url(reset.css);
+
+:root{
+	--background-color:#F2F2F2;
+	--main-color: #000000;
+	--sec-color-2: #4D4D4D;
+	--sec-color-1: #4D3636;
+	--sec-color-3: #999999;
+	--title-font-family:font-family: 'Roboto', sans-serif;
+	--text-font-family: font-family: 'Montserrat', sans-serif;  
+}
