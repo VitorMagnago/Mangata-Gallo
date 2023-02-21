@@ -1,11 +1,57 @@
 @import url(reset.css);
 
-:root{
-	--background-color:#F2F2F2;
+:root {
+	--background-color: #f2f2f2;
 	--main-color: #000000;
-	--sec-color-2: #4D4D4D;
-	--sec-color-1: #4D3636;
+	--sec-color-2: #4d4d4d;
+	--sec-color-1: #4d3636;
 	--sec-color-3: #999999;
-	--title-font-family:font-family: 'Roboto', sans-serif;
-	--text-font-family: font-family: 'Montserrat', sans-serif;  
+}
+
+body {
+	background-color: var(--background-color);
+	min-height: 100vh;
+	font-family: "Montserrat", sans-serif;
+}
+
+.page-header__logo {
+	margin: 2rem auto;
+}
+
+.navbar__list {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navbar__links {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.page-content__hero {
+	display: flex;
+	justify-content: center;
+	margin: 8rem 0 10rem 0;
+}
+
+.hero__caption {
+	margin-left: 3rem;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 3rem;
+}
+
+.page-content__highlights {
+	display: grid;
+	justify-items: stretch;
+	grid-template-columns: repeat(3, calc(100% / 3));
+}
+
+.page-footer {
+	display: flex;
+	margin: 10rem 0 4rem 0;
+	justify-content: space-evenly;
+	align-items: center;
 }
