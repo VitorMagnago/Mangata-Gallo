@@ -79,6 +79,12 @@ body {
 	grid-template-columns: repeat(3, calc(100% / 3));
 }
 
+.highlights__images:hover {
+	opacity: 0.8;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
+	transition: 0.5s;
+}
+
 .page-footer {
 	display: flex;
 	margin: 10rem 0 4rem 0;
