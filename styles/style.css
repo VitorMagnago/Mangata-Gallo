@@ -48,7 +48,7 @@ body {
 .page-content__hero {
 	display: flex;
 	justify-content: center;
-	margin: 8rem 0 10rem 0;
+	margin: 8rem 0 15rem 0;
 }
 
 .hero__caption {
